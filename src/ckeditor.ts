@@ -23,7 +23,7 @@ import type { EditorConfig } from '@ckeditor/ckeditor5-core';
 import { Essentials } from '@ckeditor/ckeditor5-essentials';
 import { FindAndReplace } from '@ckeditor/ckeditor5-find-and-replace';
 import { FontBackgroundColor, FontColor, FontFamily, FontSize } from '@ckeditor/ckeditor5-font';
-import { Heading, Title } from '@ckeditor/ckeditor5-heading';
+import { Heading } from '@ckeditor/ckeditor5-heading';
 import { Highlight } from '@ckeditor/ckeditor5-highlight';
 import { HorizontalLine } from '@ckeditor/ckeditor5-horizontal-line';
 import { GeneralHtmlSupport } from '@ckeditor/ckeditor5-html-support';
@@ -40,7 +40,7 @@ import {
 import { Indent, IndentBlock } from '@ckeditor/ckeditor5-indent';
 import { AutoLink, Link, LinkImage } from '@ckeditor/ckeditor5-link';
 import { List, ListProperties, TodoList } from '@ckeditor/ckeditor5-list';
-import { MediaEmbed, MediaEmbedToolbar } from '@ckeditor/ckeditor5-media-embed';
+import { MediaEmbed } from '@ckeditor/ckeditor5-media-embed';
 import { PageBreak } from '@ckeditor/ckeditor5-page-break';
 import { Paragraph } from '@ckeditor/ckeditor5-paragraph';
 import { PasteFromOffice } from '@ckeditor/ckeditor5-paste-from-office';
@@ -110,7 +110,6 @@ class Editor extends ClassicEditor {
 		List,
 		ListProperties,
 		MediaEmbed,
-		MediaEmbedToolbar,
 		PageBreak,
 		Paragraph,
 		PasteFromOffice,
@@ -137,7 +136,6 @@ class Editor extends ClassicEditor {
 		TableProperties,
 		TableToolbar,
 		TextTransformation,
-		Title,
 		TodoList,
 		Underline,
 		Undo,
@@ -187,7 +185,8 @@ class Editor extends ClassicEditor {
 				'specialCharacters',
 				'restrictedEditingException',
 				'imageUpload',
-				'mediaEmbed'
+				'flmngr', // buttons
+				'imgpen'  // of Flmngr
 			],
 			shouldNotGroupWhenFull: true
 		},

@@ -2,7 +2,7 @@
   "name": "@tjmugova/ckeditor5-custom-build",
   "author": "CKSource",
   "description": "A custom CKEditor 5 build made by the CKEditor 5 online builder.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "SEE LICENSE IN LICENSE.md",
   "private": false,
   "main": "./build/ckeditor.js",
@@ -41,7 +41,8 @@
     "@ckeditor/ckeditor5-typing": "40.2.0",
     "@ckeditor/ckeditor5-undo": "40.2.0",
     "@ckeditor/ckeditor5-upload": "40.2.0",
-    "@ckeditor/ckeditor5-word-count": "40.2.0"
+    "@ckeditor/ckeditor5-word-count": "40.2.0",
+    "npx": "^10.2.2"
   },
   "devDependencies": {
     "@ckeditor/ckeditor5-core": "^40.2.0",
