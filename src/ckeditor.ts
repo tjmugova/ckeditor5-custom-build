@@ -185,8 +185,6 @@ class Editor extends ClassicEditor {
 				'specialCharacters',
 				'restrictedEditingException',
 				'imageUpload',
-				'flmngr', // buttons
-				'imgpen'  // of Flmngr
 			],
 			shouldNotGroupWhenFull: true
 		},
